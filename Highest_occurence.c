@@ -14,8 +14,8 @@ b[a[i]]++;
 max=a[0];
 for(i=1;i<n;i++)
 {
-    if(b[a[i]]>max)
-		max=a[i];		
+    if(b[a[i]]>b[max])
+    	max=a[i];		
 }
-printf("%d",max+1);
+printf("%d",max);
 }
